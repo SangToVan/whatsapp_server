@@ -1,4 +1,8 @@
 package com.sangto.whatsapp.exception;
 
-public class MessageException {
+public class MessageException extends Exception {
+
+    public MessageException(String message) {
+        super(message);
+    }
 }
